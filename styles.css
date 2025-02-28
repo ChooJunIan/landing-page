@@ -65,3 +65,28 @@ p.secondary-text {
   padding-bottom: 8px;
 }
 
+.information-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #1F2937;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.information-container {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.information-images {
+  max-width: 200px;
+}
+
+.information-images img {
+  border-radius: 10%;
+  border-color: #3882F6;
+  border-style: solid;
+}
