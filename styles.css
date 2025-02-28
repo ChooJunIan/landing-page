@@ -12,6 +12,7 @@ button {
   border-radius: 8px;
   padding: 4px 16px;
   border: none;
+  max-width: 150px;
 }
 
 body {
@@ -76,7 +77,8 @@ p.secondary-text {
 
 .information-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 60px;
   font-weight: 100;
   font-size: 18px;
 }
@@ -90,3 +92,35 @@ p.secondary-text {
   border-color: #3882F6;
   border-style: solid;
 }
+
+.quote-section {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 600px;
+  max-width: 900px;
+  padding: 36px
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  color: #1F2937;
+  margin: 0;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-weight: bolder;
+}
+
+
