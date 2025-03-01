@@ -21,13 +21,19 @@ body {
 }
 
 .hero-top,
-.hero-main {
+.hero-main,
+.footer-content {
   display: flex;
   background-color: #1F2937;
 }
 
+.footer-content {
+  justify-content: center;
+}
+
 .hero-links a,
-.secondary-text {
+.secondary-text,
+.footer-content {
   font-size: 18px;
   color: #E5E7EB;
 }
