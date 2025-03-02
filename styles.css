@@ -129,4 +129,40 @@ p.secondary-text {
   font-weight: bolder;
 }
 
+.call-to-action-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 100px;
+}
+
+.call-to-action-container {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 4px;
+  flex-basis: 900px;
+  padding: 40px 80px;
+}
+
+.call-to-action-left {
+  padding: 0px 32px;
+}
+
+.call-to-action-hero {
+  font-size: 24px;
+  margin: 0px;
+} 
+
+.call-to-action-secondary {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 0px;
+}
+
+.call-to-action-button {
+  border-style: solid;
+  border-width: 2px;
+}
 
